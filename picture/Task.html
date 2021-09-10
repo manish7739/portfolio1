@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5500/horizontanNavbar.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Task</title>
+    <style>
+        body{
+            background-color: rgb(158, 158, 154);
+        }
+        ul{
+            list-style-type:none;
+        
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(77, 78, 78);
+        }
+        li{
+            float: right;
+            
+        }
+        li a{
+            display: block;
+            padding: 10px;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            color: white;
+           
+        }
+        img{
+            border-radius: 50%; 
+            padding: 10px;
+        }
+        footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(80, 80, 78);
+  color: white;
+}
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a>Profile</a></li>
+        <li><a>Services</a></li>
+        <li><a>Contact</a></li>
+        <li><a>About</a></li>
+        
+        <li><a>Home</a></li>
+        <li style="font-size: x-large; font-style: inherit; margin-left: 15%; float:left"><a>GEEKSTER</a></li>
+       
+    </ul>
+
+    <div>
+    <img style="padding: 100px;" src="./Task_files/img1.jpg" width="300px" height="300px">
+   </div>
+   
+    
+
+
+    <div>
+       
+        <img style="padding: 55px;" src="./Task_files/project.jpg" width="200px" height="200px">
+        <img style="padding: 55px;" src="./Task_files/profile.jpg" width="200px" height="200px">
+        <img style="padding: 55px;" src="./Task_files/img1.jpg" width="200px" height="200px">
+        <img style="padding: 55px;" src="./Task_files/img2.jpg" width="200px" height="200px">
+    </div>
+   
+    <div>
+        <footer>
+           
+                <avatar style="text-align: center;">
+                    <img src="./Task_files/fb.png" alt="john" width="60px" height="60px&quot;">
+                    <img src="./Task_files/twitter.png" alt="john" width="60px" height="60px&quot;">
+                    <img src="./Task_files/fb.png" alt="john" width="60px" height="60px&quot;">
+                    <img src="./Task_files/twitter.png" alt="john" width="60px" height="60px&quot;">
+                </avatar>
+                <p>Author: Hege Refsnes<br>
+                <a href="mailto:hege@example.com">mani12116@gmail.com</a></p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Labore facere praesentium eius cupiditate fugit eos doloribus
+                      quasi dolores accusantium ducimus, aliquid aspernatur
+                     totam repudiandae assumenda distinctio dolore blanditiis inventore quo.
+                </p>
+        </footer>
+    </div>
+
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

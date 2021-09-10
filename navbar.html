@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        ul {
+            list-style-type:none;
+            margin: 0px;
+            padding: 0px;
+            width: 250px;
+            background-color: rgb(179, 184, 184);
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        
+        }
+        
+
+
+        li a {
+            display: block;
+            color: #000;
+           padding: 15px 30px;
+            text-decoration: none;
+        }
+        
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* Change the link color on hover */
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.img{
+    margin-left: 20%;
+     padding: 1px 16px;
+    
+     
+}
+.text{
+    margin-left: 25%;
+    margin-top: 40px;
+    line-height: 2.5;
+}
+.avatar {
+  vertical-align: middle;
+  width: 30%;
+  height: 200px;
+  border-radius: 49%;
+  margin-bottom: 10px;
+}
+/* create table*/
+* {
+  box-sizing: border-box;
+}
+.column {
+  float:left;
+  width: 25%;
+  
+  height: 200px; 
+  margin-left: 25%;/* Should be removed. Only for demonstration */
+}
+
+
+    </style>
+   
+</head>
+    <ul>
+       <li><a class="active" href="#home" >Home</a></li>
+       <li><a href="#home" >Profile</a></li>
+       <li><a href="#home" >Resume</a></li>  
+       <li><a href="#home" >Project</a></li>
+       <li><a href="#home" >Contact</a></li>
+      
+      <!--<li>Home</li>
+       <li>Profile</li>
+       <li>Resume</li>  
+       <li>Project</li>
+       <li>Contact</li>  -->
+        
+    </ul>
+    
+    <div class="img">
+        <h1 ><u>Crircket News</u></h1>
+        <img src="picture/cricket.jpg" alt="Cinque Terre" width="100%" height="400">
+    </div>
+    <div class="text">
+      <p>  India captain Virat Kohli posted a picture on social media on
+           Sunday where he is seen with India Test 
+          teammates Umesh Yadav, 
+          Jasprit Bumrah, Ravindra Jadeja, Mohammed Siraj, Hanuma Vihari, 
+          Cheteshwar Pujara, and Mayank Agarwal. The Indian Test team is 
+          in England to play a five-Test series, starting with the first 
+          game at Trent Bridge, Nottingham from August 4. “Work done”,
+           wrote Kohli as the caption, with an emoji indicating a workout 
+           session that the India players had. The Indians finished a three-day 
+           warm-up match against a Select County XI recently and Rahul, Jadeja, 
+           and Umesh returned with noteworthy
+           While Rahul hit a century in the first innings, Jadeja hit the fifties
+           in both innings and Umesh picked up three wickets in the first innings of the match.</p> 
+
+<p>The Indian team has been in England since arriving there ahead of the World Test 
+    Championship final in June. India lost to New Zealand in the final played at the
+     Hampshire Bowl, Southampton from June 18 to 22. 
+
+The players were on a break after the final concluded and assembled in London a few 
+days before their departure to Durham for the warm-up match.  </p>
+    </div>
+
+    <div style="margin-left: 25%;">
+        <img class="avatar" src="picture/rohit.jpeg" alt="Cinque Terre" width="30%" height="200">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, 
+            natus aut culpa repellat libero ipsum eius hic sint amet, nulla 
+            labore reprehenderit laudantium doloribus debitis deleniti dolorum
+                 aliquam explicabo voluptatum.</p>
+    </div>
+
+
+    <div style="margin-left: 25%;">
+       
+        <img class="avatar" src="picture/virat.jpeg" alt="Cinque Terre" width="10%" height="100">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, 
+            natus aut culpa repellat libero ipsum eius hic sint amet, nulla 
+            labore reprehenderit laudantium doloribus debitis deleniti dolorum
+                 aliquam explicabo voluptatum.</p>
+       
+    </div>
+    <div style="margin-left: 25%;">
+        
+       
+        <img class="avatar" src="picture/ishan.jpeg" alt="Cinque Terre" width="30%" height="200">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, 
+            natus aut culpa repellat libero ipsum eius hic sint amet, nulla 
+            labore reprehenderit laudantium doloribus debitis deleniti dolorum
+                 aliquam explicabo voluptatum.</p>
+   
+    </div>
+<!--create new row & column -->
+<div class="row">
+    <div class="column" style="background-color:#aaa;"> 
+        <h2 style="margin-left: 10px;" >Column 1</h2>
+        <p  style="margin-left: 10px;" >Some text..</p> 
+    </div>
+    
+    <div class="column" style="background-color:#aaa;">
+        <h2 style="margin-left: 10px;">Column 1</h2>
+        <p  style="margin-left: 10px;" >Some text..</p>
+    </div>
+
+</div>
+</body>
+</html>
